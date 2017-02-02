@@ -1,9 +1,3 @@
-# Tic Tac Toe With "AI" version 4.3
-# Original design from: http://code.activestate.com/recipes/578816-the-game-of-tic-tac-toe-in-python/
-# with ridiculous edits and "AI" implementation by Unconventional.
-# Currently can only play as 'X' and nothing is logged between games.
-# Level 1 and level 5 might be a little extreme ^_^
-
 import random, time
 
 def print_board(board):
