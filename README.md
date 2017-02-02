@@ -1,6 +1,6 @@
 # py_tic_tac_toe
 
-Single player, text based, Tic Tac Toe in Python
+Single player, text based, Tic Tac Toe in Python 2.7
 
 Original design from: http://code.activestate.com/recipes/578816-the-game-of-tic-tac-toe-in-python/
 with ridiculous edits and "AI" implementation by UnconventionalOne.
