@@ -191,7 +191,7 @@ def get_input(turn, board, count):
                 print_board(board)
                 print "\n" + str(user) + " is not a valid move! Please try again.\n"
                 return counting
-        except:# Exception as e:
+        except Exception as e:
             counting = get_count(count)
             print_instruction()
             print_board(board)
@@ -218,8 +218,7 @@ def quit_game(board,msg):
                 main()
             else:
                 print "\n" + gameend + " is not a valid response! Please type Y or N.\n"
-        # Not sure if all try-excepts in script are necessary...
-        except:# Exception as e:
+        except Exception as e:
             print "\n" + gameend + " is not a valid response! Please type Y or N.\n"
             
 
@@ -232,7 +231,7 @@ def level_select():
                 return level
             else:
                 print "\n" + str(level) + " is not a valid respose! Please input 1-5.\n"
-        except:# Exception as e:
+        except Exception as e:
             print "\n" + str(level) + " is not a valid respose! Please input 1-5.\n"
 
 
